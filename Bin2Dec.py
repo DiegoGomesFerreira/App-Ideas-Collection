@@ -7,5 +7,4 @@ for x in range(len(numero)):
     digito = numero.pop()
     if digito == "1":
         valor = valor + pow(2, x)
-
 print(f"O valor decimal é {valor}")
